@@ -33,18 +33,18 @@ int main (int argc, char **argv){
       if (checkAngka(argv[i])){
         arguments[i] = atoi(argv[i]);
         if (arguments[i] < 0) {
-          printf("invalid input argument %d\n", i);
+          printf("invalid input ke %d\n", i);
         }
       }
       else if (checkBintang(argv[i])) {
-        arguments[i] = -1;
+        arguments[i] = -69;
         }
       else{
-        printf("invalid input argument %d\n", i);
+        printf("invalid input ke %d\n", i);
         exit(EXIT_FAILURE);
       }
     }
-      if (arguments[1] > 59 && arguments[2] > 59 && arguments[3] > 23) {
+      if (arguments[1] >= 59 && arguments[2] >= 59 && arguments[3] >= 23) {
         printf("invalid input\n");
         exit(EXIT_FAILURE);
       }
@@ -80,7 +80,7 @@ int main (int argc, char **argv){
         // Tulis program kalian di sini
         time_t t = time(NULL);
         struct tm* tm = localtime(&t);
-        if((tm->tm_sec == arguments[1] || arguments[1] == -1) && (tm->tm_min == arguments[2] || arguments[2] == -1) && (tm->tm_hour == arguments[3] || arguments[3] == -1)){
+        if((tm->tm_sec == arguments[1] || arguments[1] == -69) && (tm->tm_min == arguments[2] || arguments[2] == -69) && (tm->tm_hour == arguments[3] || arguments[3] == -69)){
           pid_t child_id;
           child_id = fork();
 
