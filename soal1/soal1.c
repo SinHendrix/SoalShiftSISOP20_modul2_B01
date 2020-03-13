@@ -44,7 +44,7 @@ int main (int argc, char **argv){
         exit(EXIT_FAILURE);
       }
     }
-      if (arguments[1] >= 59 && arguments[2] >= 59 && arguments[3] >= 23) {
+      if (arguments[1] > 59 && arguments[2] > 59 && arguments[3] > 23) {
         printf("invalid input\n");
         exit(EXIT_FAILURE);
       }
