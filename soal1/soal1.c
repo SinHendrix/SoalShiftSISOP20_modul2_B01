@@ -10,13 +10,6 @@
 #include <string.h>
 #include <time.h>
 
-int checkBintang(char a[]){
-  if(a[0] == '*'){
-    return 1;
-  }
-  return 0;
-}
-
 int checkAngka(char a[]){
   for(int i = 0; i < strlen(a); i++){
     if(a[i] < '0' || a[i] > '9'){
@@ -24,6 +17,13 @@ int checkAngka(char a[]){
     }
   }
   return 1;
+}
+
+int checkBintang(char a[]){
+  if(a[0] == '*'){
+    return 1;
+  }
+  return 0;
 }
 
 int main (int argc, char **argv){
