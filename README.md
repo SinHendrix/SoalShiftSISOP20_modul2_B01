@@ -1,8 +1,8 @@
 
 
-# SoalShiftSISOP20_modul1_B01
+# SoalShiftSISOP20_modul2_B01
 
-Soal Shift Modul 1
+Soal Shift Modul 2
 1. [Soal 1](#1-soal-1)
 2. [Soal 2](#2-soal-2)
 3. [Soal 3](#3-soal-3)
@@ -118,7 +118,7 @@ int main (int argc, char **argv){
 }
 ```
 
-### 2.Soal 2
+### 2. Soal 2
 Kami belum mengerjakan nomor 2 karena waktu yang kurang memadai
 ### 3. Soal 3
 ##### Jaya adalah seorang programmer handal mahasiswa informatika. Suatu hari dia memperoleh tugas yang banyak dan berbeda tetapi harus dikerjakan secara bersamaan (multiprocessing).
